@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameters:
 ///   - inParam: TPTLiveFrameworkUserInParam
 + (void)channelUserLoginWithInParam:(TPTLiveFrameworkUserInParam *)inParam
-                            handler:(void (^) (BOOL success, NSString * message))handler;
+                            handler:(void (^) (BOOL success, NSString * _Nullable message))handler;
 
 
 /// 聚道用户退出登录 - 在宿主APP中用户退出时调用

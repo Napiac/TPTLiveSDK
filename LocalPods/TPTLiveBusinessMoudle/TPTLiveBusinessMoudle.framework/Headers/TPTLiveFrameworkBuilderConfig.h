@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy)NSString * partnerKey;
 
 @property(nonatomic, copy)NSString * apiHost;
-@property(nonatomic, copy)NSString * socketIp;
 
 @property(nonatomic, copy)void (^rechargeEventHandler)(UIView * sender);
 @end

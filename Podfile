@@ -4,7 +4,7 @@ use_frameworks!
 
 platform :ios, '12.0'
 
-target 'TPTLiveSDK_Example' do
+def localPods
   pod 'YYText', :path => 'LocalPods/FORKYYText' # 有修改
   pod 'TPTLiveBusinessMoudle', :path => 'LocalPods/TPTLiveBusinessMoudle'
   pod 'TPTV2RouterMoudle',     :path => 'LocalPods/TPTV2RouterMoudle'
@@ -16,6 +16,13 @@ target 'TPTLiveSDK_Example' do
   pod 'TPTFlowObjectMoulde_General', :path => 'LocalPods/TPTFlowObjectMoulde_General'
   pod 'TPTFlowObjectMoulde_Player', :path => 'LocalPods/TPTFlowObjectMoulde_Player'
   pod 'TPTFlowObjectMoulde_RadioRoomTRTC', :path => 'LocalPods/TPTFlowObjectMoulde_RadioRoomTRTC'
+end
+
+
+target 'TPTLiveSDK_Example' do
+  localPods
+  
+  pod 'LookinServer', :configurations => ['Debug']
 
 end
 

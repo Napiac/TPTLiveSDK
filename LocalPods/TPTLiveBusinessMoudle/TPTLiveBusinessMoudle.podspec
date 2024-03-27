@@ -10,17 +10,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   
-  s.ios.vendored_frameworks = [
-    'LiveSDK/TPTLiveBusinessMoudle.framework',
-#    'LiveSDK/TPTFlowObjectMoulde_General.framework',
-#    'LiveSDK/TPTFlowObjectMoulde_Player.framework',
-#    'LiveSDK/TPTFlowObjectMoulde_RadioRoomTRTC.framework'
-  ]
+ 
+  s.ios.vendored_framework = 'TPTLiveBusinessMoudle.framework'
+
 
   s.ios.frameworks = ['AVFoundation', 'AudioToolbox', 'AVKit', 'MediaPlayer']
 
   s.ios.resource_bundles = {
-    'TPTLiveBusinessMoudle_Live' => ['LiveSDK/TPTLiveBusinessMoudle.framework/Resources/TPTLiveBusinessMoudle_Live.bundle/*']
+    'TPTLiveBusinessMoudle_Live' => ['TPTLiveBusinessMoudle.framework/Resources/TPTLiveBusinessMoudle_Live.bundle/*']
   }
   
   s.dependency 'TPTCoreMoudle'
