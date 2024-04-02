@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPTLiveFrameworkUserEvent</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: monospace;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .underline {
+            border-bottom: 2px solid #ccc; /*增加下划线粗度*/
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TPTLiveFrameworkUserEvent</h1>
+    <p>渠道侧用户事件</p>
+
+    <h2>方法</h2>
+
+    <div class="underline">
+        <h3><code>channelUserLoginWithInParam:handler:</code></h3>
+        <pre><code>+ (void)channelUserLoginWithInParam:(TPTLiveFrameworkUserInParam *)inParam
+                            handler:(void (^) (BOOL success))handler;</code></pre>
+        <p>描述：渠道用户登录。</p>
+        <p>参数：</p>
+        <ul>
+            <li><code>inParam</code>：TPTLiveFrameworkUserInParam 对象，用户登录参数。</li>
+            <li><code>handler</code>：登录结果处理回调，参数为登录是否成功。</li>
+        </ul>
+    </div>
+
+    <div class="underline">
+        <h3><code>channelUserLogout</code></h3>
+        <pre><code>+ (void)channelUserLogout;</code></pre>
+        <p>描述：渠道用户登出。</p>
+        <p>参数：</p>
+        <ul>
+            <li>无参数</li>
+        </ul>
+    </div>
+
+</body>
+</html>
