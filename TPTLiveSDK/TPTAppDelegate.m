@@ -15,10 +15,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    TPTLiveFrameworkBuilderConfig * liveSDKConfig = [TPTLiveFrameworkBuilderConfig new];
-    liveSDKConfig.partnerKey = @"x";
-    liveSDKConfig.apiHost = @"x";
-    NSError * error = [TPTLiveFrameworkBuilder appDidLaunch:liveSDKConfig];
+    TPTLiveFrameworkBuilderConfig * buildConfig = [TPTLiveFrameworkBuilderConfig new];
+    buildConfig.partnerKey = @"P202403198739";
+    buildConfig.partnerSecret = @"88e4650b4228a9affd9d392079ba19cf";
+    buildConfig.apiHost = @"http://106.55.103.148:8000";
+    NSError * error = [TPTLiveFrameworkBuilder appDidLaunch:buildConfig];
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];

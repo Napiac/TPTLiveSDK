@@ -17,7 +17,9 @@ typedef struct HTTPEncryptParamStruct {
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HTTPClient (EncryptParam)
-@property(nonatomic, assign)HTTPEncryptParamStruct encryptParamStruct;
+- (HTTPEncryptParamStruct)encryptParamStruct;
+@property(nonatomic, assign)HTTPEncryptParamStruct customEncryptStruct;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 渠道标识
 @property(nonatomic, copy)NSString * partnerKey;
 
+@property(nonatomic, copy)NSString * partnerSecret;
+
 @property(nonatomic, copy)NSString * apiHost;
 
 @property(nonatomic, copy)void (^rechargeEventHandler)(UIView * sender);

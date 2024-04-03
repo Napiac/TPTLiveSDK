@@ -226,7 +226,7 @@
 				ORGANIZATIONNAME = Napiac;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = M55QXXUBBV;
+						DevelopmentTeam = W694CQ7FDN;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -517,7 +517,7 @@
 			baseConfigurationReference = B28735E57E26D250CACB7085 /* Pods-TPTLiveSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M55QXXUBBV;
+				DEVELOPMENT_TEAM = W694CQ7FDN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TPTLiveSDK/TPTLiveSDK-Prefix.pch";
 				INFOPLIST_FILE = "TPTLiveSDK/TPTLiveSDK-Info.plist";
@@ -525,7 +525,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sanya.sdktest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukuai.im.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -537,7 +537,7 @@
 			baseConfigurationReference = B1027D4AD906DC3B4E1973B0 /* Pods-TPTLiveSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M55QXXUBBV;
+				DEVELOPMENT_TEAM = W694CQ7FDN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TPTLiveSDK/TPTLiveSDK-Prefix.pch";
 				INFOPLIST_FILE = "TPTLiveSDK/TPTLiveSDK-Info.plist";
@@ -545,7 +545,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sanya.sdktest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koukuai.im.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
