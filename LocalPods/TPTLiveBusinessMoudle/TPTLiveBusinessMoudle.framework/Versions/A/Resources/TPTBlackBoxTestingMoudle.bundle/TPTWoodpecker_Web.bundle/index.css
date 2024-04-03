@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: "PingFang SC", Arial, sans-serif;
+  font-size: 12px;
+}
+
+header {
+  height: 58px;
+  line-height: 54px;
+  color: #fff;
+  font-size: 20px;
+  font-style: bold;
+  background-color: #333;
+}
+
+
+header .container {
+  margin: 0 10% 0 25%;
+}
+
+.main {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.main .item {
+  display: inline-flex;
+  width: 130px;
+  height: 130px;
+  border-radius: 4px;
+  margin: 10px 10px;
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+}
+.main .item:hover {
+  background-color: #333;
+}
+.main .item .name {
+  color: #dedede;
+  text-align: center;
+  word-wrap: break-word;
+}
+@media screen and (min-width: 768px) {
+  div.main {
+    width: 610px;
+  }
+}
