@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "TPTManagerMoudle"
-  s.version = "7.4.9"
+  s.version = "7.5.0"
   s.summary = "A short description of TPTManagerMoudle."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"Napiac"=>"1280367284@qq.com"}
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.dependency 'YYModel'
   s.dependency 'TPTV2RouterMoudle'
   s.dependency 'ReactiveObjC'
-  s.frameworks = 'UIKit','StoreKit','AppTrackingTransparency','AdSupport', 'CoreLocation'
+  s.frameworks = 'UIKit'
 end

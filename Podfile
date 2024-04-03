@@ -7,6 +7,7 @@ platform :ios, '12.0'
 def localPods
   pod 'YYText', :path => 'LocalPods/FORKYYText' # 有修改
   pod 'TPTLiveBusinessMoudle', :path => 'LocalPods/TPTLiveBusinessMoudle'
+  pod 'TPTGeneralWebsocketBusinessModule', :path => 'LocalPods/TPTGeneralWebsocketBusinessModule'
   pod 'TPTV2RouterMoudle',     :path => 'LocalPods/TPTV2RouterMoudle'
   pod 'TPTCoreMoudle',         :path => 'LocalPods/TPTCoreMoudle'
   pod 'TPTManagerMoudle',      :path => 'LocalPods/TPTManagerMoudle'

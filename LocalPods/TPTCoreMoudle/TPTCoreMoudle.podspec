@@ -12,7 +12,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '12.0'
   s.ios.vendored_framework   = 'TPTCoreMoudle.framework'
   
-  
+  s.ios.resource_bundles = {
+    'TPTCoreMoudle_Images' => ['TPTCoreMoudle.framework/Resources/TPTCoreMoudle_Images.bundle/*'],
+    'TPTCoreMoudle_Resource' => ['TPTCoreMoudle.framework/Resources/TPTCoreMoudle_Resource.bundle/*']
+  }
   s.dependency 'Masonry'
   s.dependency 'ReactiveObjC'
   s.dependency 'SDWebImage', '5.18.0'

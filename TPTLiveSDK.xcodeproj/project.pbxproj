@@ -323,6 +323,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 				"${BUILT_PRODUCTS_DIR}/SVGAPlayer/SVGAPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
@@ -349,6 +350,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVGAPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
@@ -367,11 +369,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TPTLiveSDK_Example/Pods-TPTLiveSDK_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TPTCoreMoudle/TPTCoreMoudle_Images.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TPTCoreMoudle/TPTCoreMoudle_Resource.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TPTGeneralWebsocketBusinessModule/TPTGeneralWebsocketBusinessModule.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTLiveBusinessMoudle/TPTLiveBusinessMoudle_Live.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTUIGeneralMoudle/TPTUIGeneralMoudle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTCoreMoudle_Images.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTCoreMoudle_Resource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTGeneralWebsocketBusinessModule.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTLiveBusinessMoudle_Live.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTUIGeneralMoudle.bundle",
 			);
