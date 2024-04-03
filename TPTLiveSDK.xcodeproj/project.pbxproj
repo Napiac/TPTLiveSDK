@@ -372,6 +372,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTCoreMoudle/TPTCoreMoudle_Images.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTCoreMoudle/TPTCoreMoudle_Resource.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTGeneralWebsocketBusinessModule/TPTGeneralWebsocketBusinessModule.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TPTLiveBraceBusinessMoudle/TPTLiveBraceBusinessMoudle.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTLiveBusinessMoudle/TPTLiveBusinessMoudle_Live.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTUIGeneralMoudle/TPTUIGeneralMoudle.bundle",
 			);
@@ -380,6 +381,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTCoreMoudle_Images.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTCoreMoudle_Resource.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTGeneralWebsocketBusinessModule.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTLiveBraceBusinessMoudle.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTLiveBusinessMoudle_Live.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTUIGeneralMoudle.bundle",
 			);
