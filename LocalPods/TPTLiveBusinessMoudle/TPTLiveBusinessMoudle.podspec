@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
   s.ios.frameworks = ['AVFoundation', 'AudioToolbox', 'AVKit', 'MediaPlayer']
 
   s.ios.resource_bundles = {
-    'TPTLiveBusinessMoudle_Live' => ['TPTLiveBusinessMoudle.framework/Resources/TPTLiveBusinessMoudle_Live.bundle/*']
+    'TPTLiveBusinessMoudle_Live' => ['TPTLiveBusinessMoudle.framework/Resources/TPTLiveBusinessMoudle_Live.bundle/*'],
+    'TPTLiveBusinessMoudle_LiveV2Brace' => ['TPTLiveBusinessMoudle.framework/Resources/TPTLiveBusinessMoudle_LiveV2Brace.bundle/*'],
   }
   
   s.dependency 'TPTCoreMoudle'

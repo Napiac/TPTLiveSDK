@@ -14,7 +14,6 @@ def localPods
   pod 'TPTManagerMoudle',      :path => 'LocalPods/TPTManagerMoudle'
   pod 'TPTHTTPRequestMoudle',  :path => 'LocalPods/TPTHTTPRequestMoudle'
   pod 'TPTUIGeneralMoudle',    :path => 'LocalPods/TPTUIGeneralMoudle'
-  pod 'TPTBlackBoxTestingMoudle', :path => 'LocalPods/TPTBlackBoxTestingMoudle'
   pod 'TPTFlowObjectMoulde_General', :path => 'LocalPods/TPTFlowObjectMoulde_General'
   pod 'TPTFlowObjectMoulde_Player', :path => 'LocalPods/TPTFlowObjectMoulde_Player'
   pod 'TPTFlowObjectMoulde_RadioRoomTRTC', :path => 'LocalPods/TPTFlowObjectMoulde_RadioRoomTRTC'

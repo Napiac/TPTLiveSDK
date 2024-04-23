@@ -306,7 +306,6 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TPTLiveSDK_Example/Pods-TPTLiveSDK_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/AliyunOSSiOS/AliyunOSSiOS.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
@@ -333,7 +332,6 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AliyunOSSiOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
@@ -374,6 +372,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTGeneralWebsocketBusinessModule/TPTGeneralWebsocketBusinessModule.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTLiveBraceBusinessMoudle/TPTLiveBraceBusinessMoudle.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTLiveBusinessMoudle/TPTLiveBusinessMoudle_Live.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TPTLiveBusinessMoudle/TPTLiveBusinessMoudle_LiveV2Brace.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TPTUIGeneralMoudle/TPTUIGeneralMoudle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -383,6 +382,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTGeneralWebsocketBusinessModule.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTLiveBraceBusinessMoudle.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTLiveBusinessMoudle_Live.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTLiveBusinessMoudle_LiveV2Brace.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPTUIGeneralMoudle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

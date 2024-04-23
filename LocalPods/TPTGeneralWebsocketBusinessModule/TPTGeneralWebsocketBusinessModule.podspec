@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.dependency 'ReactiveObjC'
   s.dependency 'TPTManagerMoudle'
   s.dependency 'TPTV2RouterMoudle'
-  s.dependency 'TPTBlackBoxTestingMoudle'
   s.dependency 'SocketRocket'
   s.dependency 'TPTUIGeneralMoudle'
   

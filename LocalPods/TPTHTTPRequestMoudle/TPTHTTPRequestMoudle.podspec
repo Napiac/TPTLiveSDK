@@ -12,7 +12,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_framework   = 'TPTHTTPRequestMoudle.framework'
   
   s.dependency 'AFNetworking'
-    s.dependency 'AliyunOSSiOS'
-    s.dependency 'TPTV2RouterMoudle'
-    s.dependency 'TPTBlackBoxTestingMoudle'
+  s.dependency 'TPTV2RouterMoudle'
 end
