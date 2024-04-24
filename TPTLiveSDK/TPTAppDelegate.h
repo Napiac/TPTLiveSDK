@@ -9,7 +9,15 @@
 @import UIKit;
 
 @interface TPTAppDelegate : UIResponder <UIApplicationDelegate>
-
 @property (strong, nonatomic) UIWindow *window;
+
++ (TPTAppDelegate *)sharedAppDelegate;
+
+
+- (void)postUpdateUserBalance;
+
+/// 待用户消费ws的通知 <测试时使用>
+- (void)connectConsumptionModeListener;
+- (void)disconnectConsumptionModeListener;
 
 @end
